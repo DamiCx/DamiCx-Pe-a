@@ -1,0 +1,23 @@
+@import "colores";
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  nav ul{
+    display: flex;
+    
+  }
+
+nav li a:hover {
+    background:map-get($paletaColores, vinotinto);
+    background:map-get($paletaColores, blanco);
+  }
+
+li{
+    list-style-type: none;
+    padding: 10px;
+  }
